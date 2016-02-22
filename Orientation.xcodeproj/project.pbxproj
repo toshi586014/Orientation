@@ -14,6 +14,7 @@
 		990AF2331C7AE07500CD9F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990AF2311C7AE07500CD9F29 /* LaunchScreen.storyboard */; };
 		990AF23E1C7AE07500CD9F29 /* OrientationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AF23D1C7AE07500CD9F29 /* OrientationTests.swift */; };
 		990AF2491C7AE07500CD9F29 /* OrientationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AF2481C7AE07500CD9F29 /* OrientationUITests.swift */; };
+		990AF2571C7AE28F00CD9F29 /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AF2561C7AE28F00CD9F29 /* LandscapeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		990AF2441C7AE07500CD9F29 /* OrientationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrientationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990AF2481C7AE07500CD9F29 /* OrientationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationUITests.swift; sourceTree = "<group>"; };
 		990AF24A1C7AE07500CD9F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990AF2561C7AE28F00CD9F29 /* LandscapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				990AF2281C7AE07400CD9F29 /* AppDelegate.swift */,
 				990AF22A1C7AE07400CD9F29 /* ViewController.swift */,
+				990AF2561C7AE28F00CD9F29 /* LandscapeViewController.swift */,
 				990AF22C1C7AE07500CD9F29 /* Main.storyboard */,
 				990AF22F1C7AE07500CD9F29 /* Assets.xcassets */,
 				990AF2311C7AE07500CD9F29 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				990AF22B1C7AE07400CD9F29 /* ViewController.swift in Sources */,
+				990AF2571C7AE28F00CD9F29 /* LandscapeViewController.swift in Sources */,
 				990AF2291C7AE07400CD9F29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
